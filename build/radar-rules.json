@@ -8823,6 +8823,19 @@
       }
     ]
   },
+  "castbox.fm": {
+    "_name": "Castbox",
+    ".": [
+      {
+        "title": "Channels",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/channel/:channel"
+        ],
+        "target": "/castbox/channel/:channel"
+      }
+    ]
+  },
   "catticenter.com": {
     "_name": "全国翻译专业资格水平考试 (CATTI)",
     "www": [
@@ -16841,6 +16854,34 @@
       }
     ]
   },
+  "fcbayern.com": {
+    "_name": "FC Bayern München",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/:language/news",
+          "/:language"
+        ],
+        "target": "/fcbayern/news/:language"
+      }
+    ]
+  },
+  "fcbayern.cn": {
+    "_name": "FC Bayern München",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/fcbayern/news/zh"
+      }
+    ]
+  },
   "fda.gov": {
     "_name": "U.S. Food and Drug Administration",
     ".": [
@@ -24140,6 +24181,19 @@
       }
     ]
   },
+  "iapp.org": {
+    "_name": "IAPP",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/news"
+        ],
+        "target": "/iapp/news"
+      }
+    ]
+  },
   "icac.org.hk": {
     "_name": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
     ".": [
@@ -25536,6 +25590,19 @@
           "/"
         ],
         "target": "/j-test/news"
+      }
+    ]
+  },
+  "jable.tv": {
+    "_name": "jable",
+    ".": [
+      {
+        "title": "Jable 搜索结果",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/search/:query"
+        ],
+        "target": "/jable/search/:query"
       }
     ]
   },
@@ -32887,6 +32954,19 @@
       }
     ]
   },
+  "nanhua.net": {
+    "_name": "南华期货",
+    "mall": [
+      {
+        "title": "研报",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/mall/r/w/reportNew/report-list.html"
+        ],
+        "target": "/nanhua(_,url)=>{const params=new URL(url).searchParams;const type1=params.get(\"type1\");const type2=params.get(\"type2\");return type1&&type2?`/nanhua/report/${encodeURIComponent(type1)}/${encodeURIComponent(type2)}`:\"\"}"
+      }
+    ]
+  },
   "nankai.edu.cn": {
     "_name": "南开大学",
     "ai": [
@@ -38798,6 +38878,36 @@
       }
     ]
   },
+  "polymarket.com": {
+    "_name": "Polymarket",
+    ".": [
+      {
+        "title": "Event",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/event/:slug"
+        ],
+        "target": "/polymarket/event/:slug"
+      },
+      {
+        "title": "Events",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/",
+          "/:tagSlug"
+        ],
+        "target": "/polymarket/events/:tagSlug"
+      },
+      {
+        "title": "Series",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/series/:slug"
+        ],
+        "target": "/polymarket/series/:slug"
+      }
+    ]
+  },
   "pornhub.com": {
     "_name": "PornHub",
     "www": [
@@ -39212,6 +39322,19 @@
           "/"
         ],
         "target": "/producthunt/today"
+      }
+    ]
+  },
+  "projectjav.com": {
+    "_name": "ProjectJAV",
+    ".": [
+      {
+        "title": "Actress",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/actress/:id"
+        ],
+        "target": "/projectjav/actress/:id"
       }
     ]
   },
@@ -45434,6 +45557,20 @@
       }
     ]
   },
+  "thinkingmachines.ai": {
+    "_name": "Thinking Machines Lab",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/news",
+          "/news/"
+        ],
+        "target": "/thinkingmachines/news"
+      }
+    ]
+  },
   "thoughtworks.com": {
     "_name": "ThoughtWorks",
     "www": [
@@ -46120,6 +46257,19 @@
           "/news/"
         ],
         "target": "/trendforce/news"
+      }
+    ]
+  },
+  "trendforce.cn": {
+    "_name": "TrendForce",
+    "www": [
+      {
+        "title": "产业洞察",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/presscenter/news"
+        ],
+        "target": "/trendforce/cn/presscenter/news"
       }
     ]
   },
@@ -48136,6 +48286,20 @@
       }
     ]
   },
+  "wkjyqh.com": {
+    "_name": "五矿期货",
+    "www": [
+      {
+        "title": "研究报告",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/main/research_center/yjbg/index.shtml",
+          "/main/research_center/"
+        ],
+        "target": "/wkjyqh/research"
+      }
+    ]
+  },
   "wnacg.com": {
     "_name": "紳士漫畫",
     ".": [
@@ -48273,6 +48437,20 @@
           "/"
         ],
         "target": "/xboxfan/news"
+      }
+    ]
+  },
+  "xhamster.com": {
+    "_name": "xHamster",
+    ".": [
+      {
+        "title": "Newest Videos by Creator",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/creators/:creators",
+          "/creators/:creators/newest"
+        ],
+        "target": "/xhamster/:creators"
       }
     ]
   },
