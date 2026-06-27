@@ -2175,6 +2175,7 @@ export type RoutePath =
   | `/openai/news`
   | `/openai/research`
   | `/openalex/:journals/:type?/:ids?`
+  | `/opengithub-trending/weekly-rank`
   | `/openrice/:lang/hongkong/explore/chart/:category`
   | `/openrice/:lang/hongkong/offers`
   | `/openrice/:lang/hongkong/promos`

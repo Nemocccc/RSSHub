@@ -6725,6 +6725,9 @@
   "/openalex/:journals/:type?/:ids?": [
     "emdoe"
   ],
+  "/opengithub-trending/weekly-rank": [
+    "Nemocccc"
+  ],
   "/openrice/:lang/hongkong/voting/top/:categoryKey": [
     "after9"
   ],
