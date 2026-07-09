@@ -1567,6 +1567,7 @@ export type RoutePath =
   | `/isct/news/:lang`
   | `/issuehunt/funded/:username/:repo`
   | `/itc/collection/:colType`
+  | `/itc/weekly-rank`
   | `/itch*`
   | `/itch/devlog/:user/:id`
   | `/itch/posts/:topic/:id`
@@ -2175,7 +2176,6 @@ export type RoutePath =
   | `/openai/news`
   | `/openai/research`
   | `/openalex/:journals/:type?/:ids?`
-  | `/opengithub-trending/weekly-rank`
   | `/openrice/:lang/hongkong/explore/chart/:category`
   | `/openrice/:lang/hongkong/offers`
   | `/openrice/:lang/hongkong/promos`
