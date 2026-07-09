@@ -8491,7 +8491,7 @@
       { title:"Weekly Rank",
         docs:"https://docs.rsshub.app/routes/programming",
         source:[ "/OpenGithubs/github-weekly-rank" ],
-        target:"/itc/itc/weekly-rank" },
+        target:"/opengithub-trending/opengithub-trending/weekly-rank" },
       { title:"Releases",
         docs:"https://docs.rsshub.app/routes/program-update",
         source:[ "/TiddlyWiki/TiddlyWiki5" ],
